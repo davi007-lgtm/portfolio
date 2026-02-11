@@ -39,7 +39,7 @@ export default function Skills() {
                     className="text-center mb-16"
                 >
                     <div className="flex items-center justify-center gap-3 mb-6">
-                        <span className="text-3xl">🛠️</span>
+                        <span className="text-3xl"></span>
                         <h2 className="text-3xl sm:text-4xl font-bold text-white">
                             Principales habilidades
                         </h2>
