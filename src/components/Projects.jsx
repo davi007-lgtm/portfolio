@@ -50,20 +50,6 @@ const projects = [
         color: 'accent-violet',
     },
     {
-        id: 7,
-        title: 'Gestor de tareas en Python',
-        description: 'Aplicacion de escritorio para gestionar tareas, construida con Python y Tkinter.',
-        category: 'python',
-        tech: ['Python', 'Tkinter'],
-        images: [
-            '/projects/Gestor%20de%20tareas%20en%20python/Modulo%20de%20tareas.png',
-            '/projects/Gestor%20de%20tareas%20en%20python/Notas.png',
-            '/projects/Gestor%20de%20tareas%20en%20python/Estadisticas.png',
-        ],
-        github: 'https://github.com/davi007-lgtm',
-        color: 'accent-indigo',
-    },
-    {
         id: 8,
         title: 'Sistema de cafeteria',
         description: 'Sistema web para gestion de cafeteria con backend en Flask y frontend con Bootstrap y JavaScript.',
@@ -404,7 +390,7 @@ export default function Projects() {
                                     alt={lightbox.title}
                                     className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
                                 />
-                                
+
                                 {/* Image title */}
                                 {lightbox.title && (
                                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 rounded-b-lg">
